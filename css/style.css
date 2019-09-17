@@ -1,0 +1,197 @@
+html {
+  background: url(https://assets2.ignimgs.com/2014/05/22/maleficent-120-jpg-dcfb06.jpg?width=1280) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: cover;
+  height: 100vh;
+}
+
+*, body {
+  margin: 0 auto;
+  font-family: "Helvetica", sans-serif;
+}
+
+/********** ********** ********** navbar ********** ********** **********/
+  nav {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.fas {
+  color: white;
+}
+.logo {
+  width: 15%;
+}
+
+#logo {
+  padding-left: 1rem;
+  width: 90%;
+}
+
+.browse {
+  color: red;
+}
+.navbar .browse:hover {
+  color: red;
+}
+
+.fa-sort-down {
+  color: red;
+  padding-right: 1rem;
+  padding-bottom: 2px;
+}
+
+.white-left-menu, .white-right-menu {
+  color: white;
+  padding-right: 1.5rem;
+}
+
+#search-icon {
+  color: white;
+  padding-right: 0.4rem;
+}
+
+.fa-bell {
+  font-size: 20px;
+}
+.fa-user {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  background-color: darkred;
+}
+
+
+/********** ********** *********** main ********** ********** **********/
+.main-content {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,29,0,0.3) ),
+  url(https://assets2.ignimgs.com/2014/05/22/maleficent-120-jpg-dcfb06.jpg?width=1280) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  }
+
+.netflix-blurb {
+  margin-top: 0;
+  padding-top: 8%;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  left: 13%;
+  color: white;
+  line-height: 1.3;
+  text-align: left;
+  width: 400px;
+}
+.disney-text {
+  font-size: 6rem;
+  font-family: 'WaltographRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+.maleficent {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+.movie-description {
+  width: 300px;
+  margin-top: 0.5rem;
+}
+
+
+/********** ********** buttons ********** **********/
+.buttons {
+  margin-top: 2rem;
+  width: 250px;
+}
+.trailer-button {
+  background-color: #FFA500;
+  color: black;
+  margin-right: 10px;
+}
+.fa-caret-right {
+  color: black;
+}
+.plus-sign {
+  font-size: 20px;
+}
+.myList-button {
+  background-color: white;
+}
+
+.trailer-button, .myList-button {
+  margin-top: 1%;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+.trailer-button:hover {
+  background-color: darkorange;
+}
+.myList-button:hover {
+  background-color: lightgrey;
+}
+/********** ********** ******** video selection ******* *********** **********/
+.row  {
+  margin: 0 auto;
+  background-color: black;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+}
+
+.movie-posters {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.play-movie {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.movie-container:hover .movie-posters {
+  opacity: 0.3;
+}
+
+.movie-container:hover .play-movie {
+  opacity: 1;
+}
+
+.fa-play-circle {
+  color: white;
+  font-size: 6rem;
+  padding: 16px 32px;
+}
+
+
+/********** ********** ***** / ***** ********** **********/
